@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7027868028437337163}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7027868028907265218}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 7027868029146150181}
   - component: {fileID: 7027868029146150182}
   - component: {fileID: 7027868029146150183}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RangedEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -204,14 +204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120fb8eec0d82da45a32ba6e3f42acd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 80
+  health: 40
   deathEffect: {fileID: 9172003270528815213, guid: e9fdea4bff4e1914585fa777508c2739,
     type: 3}
   enemySpeed: 2
   timeBetweenAttack: 5
   damage: 20
   player: {fileID: 0}
-  attackSpeed: 5
+  attackSpeed: 7
   rb: {fileID: 7027868029146150182}
   stopDistance: 3
   firePoint: {fileID: 7027868028907265218}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7027868029831508803}
   - component: {fileID: 7027868029831508802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: turret_04_mk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

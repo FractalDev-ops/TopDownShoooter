@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\MeleeEnemy.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\WaweSpawner.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>A:/Projet/TopDownShoooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
